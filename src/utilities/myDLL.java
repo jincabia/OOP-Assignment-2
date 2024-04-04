@@ -7,6 +7,10 @@ import java.util.NoSuchElementException;
 
 public class myDLL<E> implements ListADT<E> {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6662910065246483836L;
 	private myDLLNode<E> head, tail;
 	private int size;
 	
